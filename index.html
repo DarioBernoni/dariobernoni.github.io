@@ -8,6 +8,156 @@
 <title>Dario Bernoni | Tra ingegneria e calcio</title>
 
 <link rel="stylesheet" href="style.css">
+
+<style>
+
+.hero-mockup{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:80px;
+padding:80px 0;
+position:relative;
+overflow:hidden;
+}
+
+.hero-left{
+flex:1;
+z-index:2;
+}
+
+.hero-right{
+flex:1;
+position:relative;
+}
+
+.hero-right img{
+width:100%;
+border-radius:20px;
+display:block;
+}
+
+.hero-right::before{
+content:"";
+position:absolute;
+left:-120px;
+top:0;
+width:250px;
+height:100%;
+background:linear-gradient(
+to right,
+#f7f8fb 0%,
+rgba(247,248,251,0.9) 50%,
+transparent 100%
+);
+z-index:1;
+}
+
+.linea{
+width:80px;
+height:6px;
+background:#2d5ca8;
+margin-bottom:40px;
+}
+
+.hero-mockup h1{
+font-size:84px;
+color:#082b63;
+margin-bottom:15px;
+}
+
+.hero-mockup h2{
+font-size:54px;
+font-weight:400;
+color:#2d5ca8;
+margin-bottom:35px;
+}
+
+.hero-mockup p{
+font-size:26px;
+line-height:1.6;
+margin-bottom:18px;
+max-width:700px;
+}
+
+.feature-band{
+background:#082b63;
+color:white;
+padding:40px 0;
+margin-top:80px;
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:40px;
+}
+
+.feature h3{
+margin-bottom:10px;
+font-size:22px;
+}
+
+.feature p{
+line-height:1.6;
+}
+
+.home-panels{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+margin-top:80px;
+margin-bottom:80px;
+}
+
+.panel{
+background:white;
+border-radius:15px;
+padding:25px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.panel h2{
+color:#082b63;
+margin-bottom:20px;
+}
+
+.panel img{
+width:100%;
+border-radius:15px;
+margin-bottom:20px;
+}
+
+.contact-item{
+margin-bottom:15px;
+}
+
+@media(max-width:1100px){
+
+.feature-grid{
+grid-template-columns:1fr 1fr;
+}
+
+.home-panels{
+grid-template-columns:1fr;
+}
+
+.hero-mockup{
+flex-direction:column;
+}
+
+.hero-mockup h1{
+font-size:52px;
+}
+
+.hero-mockup h2{
+font-size:34px;
+}
+
+}
+
+</style>
+
 </head>
 
 <body>
@@ -21,10 +171,10 @@ Dario Bernoni
 </div>
 
 <nav class="menu">
-<a href="#">Home</a>
-<a href="#">Chi sono</a>
-<a href="#">Articoli</a>
-<a href="#">Contatti</a>
+<a href="index.html">Home</a>
+<a href="chi-sono.html">Chi sono</a>
+<a href="articoli.html">Articoli</a>
+<a href="contatti.html">Contatti</a>
 </nav>
 
 </div>
@@ -32,11 +182,13 @@ Dario Bernoni
 
 <div class="container">
 
-<section class="hero">
+<section class="hero-mockup">
 
-<div class="hero-text">
+<div class="hero-left">
 
-<h1>Dario Bernoni</h1>
+<div class="linea"></div>
+
+<h1>DARIO BERNONI</h1>
 
 <h2>Tra ingegneria e calcio</h2>
 
@@ -51,13 +203,13 @@ metodologia, tecnica e crescita dei giovani calciatori.
 </p>
 
 <div class="hero-buttons">
-<a href="#" class="btn btn-primary">Leggi gli articoli</a>
-<a href="#" class="btn btn-secondary">Chi sono</a>
+<a href="articoli.html" class="btn btn-primary">LEGGI GLI ARTICOLI</a>
+<a href="chi-sono.html" class="btn btn-secondary">CHI SONO</a>
 </div>
 
 </div>
 
-<div class="hero-image">
+<div class="hero-right">
 <img src="Foto-principale.jpg" alt="Dario Bernoni">
 </div>
 
@@ -82,26 +234,103 @@ ma una parte fondamentale del percorso di crescita.
 
 <div class="card">
 <h3>Il controllo orientato</h3>
-<p>
-Come e perché orientare il primo tocco
-per migliorare le decisioni sotto pressione.
-</p>
+<p>Come e perché orientare il primo tocco per migliorare le decisioni.</p>
 </div>
 
 <div class="card">
 <h3>Lo smarcamento nei giovani calciatori</h3>
-<p>
-Principi, tempi e strategie per creare spazio
-e ricevere palla in modo efficace.
-</p>
+<p>Principi, tempi e strategie per creare spazio e ricevere palla.</p>
 </div>
 
 <div class="card">
 <h3>Allenare l'intelligenza prima della tecnica</h3>
+<p>Comprendere il gioco prima ancora della tecnica.</p>
+</div>
+
+</div>
+
+</div>
+
+<section class="feature-band">
+
+<div class="container">
+
+<div class="feature-grid">
+
+<div class="feature">
+<h3>⚽ Calcio Giovanile</h3>
+<p>Formazione, crescita e sviluppo dei talenti.</p>
+</div>
+
+<div class="feature">
+<h3>📋 Metodologia</h3>
+<p>Principi, esercitazioni e idee per allenatori.</p>
+</div>
+
+<div class="feature">
+<h3>🧠 Mentalità</h3>
+<p>Crescita personale, coraggio, errore e miglioramento.</p>
+</div>
+
+<div class="feature">
+<h3>💻 Ingegneria</h3>
+<p>Tecnologia, analisi e problem solving.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="container">
+
+<div class="home-panels">
+
+<div class="panel">
+
+<h2>Chi Sono</h2>
+
+<img src="Foto-principale.jpg" alt="Dario Bernoni">
+
 <p>
-Perché comprendere il gioco è il primo passo
-per diventare un calciatore completo.
+Allenatore e istruttore presso Curi Pescara,
+laureando magistrale in Ingegneria Informatica.
 </p>
+
+</div>
+
+<div class="panel">
+
+<h2>Articoli</h2>
+
+<p>Gli articoli verranno pubblicati qui.</p>
+
+<ul>
+<li>Controllo orientato</li>
+<li>Smarcamento</li>
+<li>1 contro 1</li>
+<li>Calcio giovanile</li>
+</ul>
+
+</div>
+
+<div class="panel">
+
+<h2>Contatti</h2>
+
+<div class="contact-item">
+📧 DarioBern27@gmail.com
+</div>
+
+<div class="contact-item">
+📸 @dariobernoni.27
+</div>
+
+<div class="contact-item">
+💼 LinkedIn: Dario Bernoni
+</div>
+
 </div>
 
 </div>
