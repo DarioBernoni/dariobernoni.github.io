@@ -364,5 +364,14 @@ font-size:40px;
 .section-title{
 font-size:36px;
 }
+  .card-link{
+text-decoration:none;
+color:inherit;
+display:block;
+}
+
+.card-link:hover{
+text-decoration:none;
+}
 
 }
