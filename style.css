@@ -63,10 +63,11 @@ padding:120px 0;
 flex:1;
 }
 
-.hero-text h1{
+.hero-mockup h1{
 font-size:72px;
 color:#082b63;
-margin-bottom:10px;
+margin-bottom:15px;
+white-space:nowrap;
 }
 
 .hero-text h2{
@@ -213,15 +214,15 @@ gap:12px;
 }
 
 .logo-box{
-width:52px;
-height:52px;
+width:64px;
+height:64px;
 border:2px solid white;
-border-radius:8px;
+border-radius:10px;
 display:flex;
 align-items:center;
 justify-content:center;
 font-weight:bold;
-font-size:24px;
+font-size:30px;
 color:white;
 }
 
@@ -231,17 +232,17 @@ flex-direction:column;
 }
 
 .logo-name{
-font-size:28px;
+font-size:34px;
 font-weight:700;
 color:white;
 line-height:1;
 }
 
 .logo-subtitle{
-font-size:14px;
+font-size:15px;
 color:white;
-margin-top:4px;
 opacity:0.9;
+margin-top:4px;
 }
 
 }
