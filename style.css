@@ -377,23 +377,70 @@ font-size:24px;
 
 @media(max-width:700px){
 
-.feature-grid{
-grid-template-columns:1fr;
+.container{
+width:95%;
+}
+
+.navbar{
+flex-direction:column;
+gap:15px;
 }
 
 .menu{
 gap:15px;
 font-size:14px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero-mockup{
+text-align:center;
 }
 
 .hero-mockup h1{
-font-size:40px;
+font-size:34px;
+white-space:normal;
+}
+
+.hero-mockup h2{
+font-size:26px;
+}
+
+.hero-mockup p{
+font-size:18px;
+}
+
+.hero-buttons{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.btn{
+margin-right:0;
 }
 
 .section-title{
 font-size:36px;
 }
-  
+
+.feature-grid{
+grid-template-columns:1fr;
+gap:25px;
+}
+
+.feature{
+align-items:center;
+}
+
+.home-panels{
+grid-template-columns:1fr;
+}
+
+.panel{
+min-height:auto;
+}
+
 .card-link{
 text-decoration:none;
 color:inherit;
