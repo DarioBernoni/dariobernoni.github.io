@@ -169,24 +169,42 @@ gap:18px;
 }
 
 .feature-icon{
-font-size:38px;
-color:white;
-min-width:50px;
-margin-top:2px;
+min-width:60px;
+}
+
+.feature-icon img{
+width:52px;
+height:52px;
+object-fit:contain;
+filter:brightness(0) invert(1);
 }
 
 .feature h3{
-font-size:20px;
+font-size:22px;
 font-weight:700;
-margin-bottom:8px;
-text-transform:uppercase;
-letter-spacing:1px;
+margin-bottom:10px;
+color:white;
 }
 
 .feature p{
-font-size:17px;
-line-height:1.6;
+font-size:18px;
+line-height:1.7;
+opacity:0.95;
 }
+  
+}.feature-band{
+background:linear-gradient(90deg,#041d4d,#082b63);
+color:white;
+padding:55px 6%;
+margin:70px 0;
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:50px;
+max-width:1400px;
+margin:auto;
 }
 
 </style>
@@ -275,14 +293,12 @@ ma una parte fondamentale del percorso di crescita.
   
 <section class="feature-band">
 
-<div class="container">
-
 <div class="feature-grid">
 
 <div class="feature">
 
 <div class="feature-icon">
-<i class="fa-regular fa-futbol"></i>
+<img src="icons/calcio.svg" alt="Calcio Giovanile">
 </div>
 
 <div>
@@ -297,7 +313,7 @@ Formazione, apprendimento e sviluppo del giovane calciatore.
 <div class="feature">
 
 <div class="feature-icon">
-<i class="fa-solid fa-diagram-project"></i>
+<img src="icons/metodologia.svg" alt="Metodologia">
 </div>
 
 <div>
@@ -312,7 +328,7 @@ Principi, esercitazioni e idee per costruire giocatori pensanti.
 <div class="feature">
 
 <div class="feature-icon">
-<i class="fa-solid fa-brain"></i>
+<img src="icons/mentalita.svg" alt="Mentalità">
 </div>
 
 <div>
@@ -327,7 +343,7 @@ Coraggio, autonomia, errore e crescita personale.
 <div class="feature">
 
 <div class="feature-icon">
-<i class="fa-solid fa-laptop"></i>
+<img src="icons/ingegneria.svg" alt="Ingegneria">
 </div>
 
 <div>
@@ -335,8 +351,6 @@ Coraggio, autonomia, errore e crescita personale.
 <p>
 Analisi, logica e problem solving applicati allo sport.
 </p>
-</div>
-
 </div>
 
 </div>
@@ -478,9 +492,6 @@ VEDI TUTTI GLI ARTICOLI
 </div>
 
 </div>
-
-
-  
 
 <div class="container">
 
