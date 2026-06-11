@@ -234,7 +234,7 @@ background:linear-gradient(
 #082b63
 );
 color:white;
-padding:55px 0;
+padding:35px 0;
 margin:60px 0;
 box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
@@ -243,6 +243,31 @@ box-shadow:0 10px 25px rgba(0,0,0,0.15);
 display:grid;
 grid-template-columns:repeat(4,1fr);
 gap:40px;
+}
+
+.feature{
+display:flex;
+align-items:center;
+gap:20px;
+}
+
+.feature-icon{
+width:48px;
+height:48px;
+flex-shrink:0;
+overflow:hidden;
+}
+
+.feature-icon img{
+width:48px;
+height:48px;
+display:block;
+object-fit:contain;
+filter:brightness(0) invert(1);
+}
+
+.feature{
+min-width:0;
 }
 
 .feature h3{
