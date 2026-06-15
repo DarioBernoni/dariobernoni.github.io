@@ -215,6 +215,10 @@ flex-direction:column;
 justify-content:flex-start;
 }
 
+.card-centro{
+grid-column:2;
+}
+
 .card:hover{
 transform:translateY(-8px);
 box-shadow:0 15px 35px rgba(0,0,0,0.12);
@@ -479,6 +483,9 @@ display:block;
 
 .card-link:hover{
 text-decoration:none;
+}
+  .card-centro{
+grid-column:auto;
 }
 
 }
