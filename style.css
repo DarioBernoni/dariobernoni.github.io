@@ -485,6 +485,10 @@ display:block;
 text-decoration:none;
 }
   .card-centro{
+
+    .instagram-card{
+grid-column:2;
+}
 grid-column:auto;
 }
 
