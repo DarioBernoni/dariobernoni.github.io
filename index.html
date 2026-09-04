@@ -2,261 +2,59 @@
 <html lang="it">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Dario Bernoni | Tra ingegneria e calcio</title>
-  <meta name="description" content="Allenatore di calcio giovanile, istruttore presso Curi Pescara e laureando magistrale in Ingegneria Informatica. Articoli su tecnica, metodologia e formazione del giovane calciatore.">
+
+<meta name="description" content="Allenatore di calcio giovanile, istruttore presso Curi Pescara e laureando magistrale in Ingegneria Informatica. Analisi, metodologia, calcio giovanile e progetti data-driven applicati al calcio.">
+
+<!-- OPEN GRAPH -->
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Dario Bernoni | Tra ingegneria e calcio">
-<meta property="og:description" content="Tecnica, metodologia, formazione e crescita del giovane calciatore.">
+<meta property="og:description" content="Tecnica, metodologia, analisi e crescita nel calcio.">
 <meta property="og:image" content="https://dariobernoni.github.io/og-image.jpg">
 <meta property="og:url" content="https://dariobernoni.github.io">
 <meta property="og:site_name" content="Dario Bernoni">
 
+<!-- TWITTER -->
+
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dario Bernoni | Tra ingegneria e calcio">
-<meta name="twitter:description" content="Tecnica, metodologia, formazione e crescita del giovane calciatore.">
+<meta name="twitter:description" content="Tecnica, metodologia, analisi e crescita nel calcio.">
 <meta name="twitter:image" content="https://dariobernoni.github.io/og-image.jpg">
 
+<!-- CSS -->
+
 <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet"
+
+<!-- FONT AWESOME -->
+
+<link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-<style>
-
-.hero-mockup{
-display:flex;
-align-items:center;
-justify-content:space-between;
-gap:80px;
-padding:80px 0;
-position:relative;
-overflow:hidden;
-}
-
-.hero-left{
-flex:1;
-z-index:2;
-}
-
-.hero-right{
-flex:1;
-position:relative;
-}
-
-.hero-right img{
-width:100%;
-border-radius:20px;
-display:block;
-}
-
-.hero-right::before{
-content:"";
-position:absolute;
-left:-120px;
-top:0;
-width:250px;
-height:100%;
-background:linear-gradient(
-to right,
-#f7f8fb 0%,
-rgba(247,248,251,0.9) 50%,
-transparent 100%
-);
-z-index:1;
-}
-
-.linea{
-width:80px;
-height:6px;
-background:#2d5ca8;
-margin-bottom:40px;
-}
-
-.hero-mockup h1{
-font-size:84px;
-color:#082b63;
-margin-bottom:15px;
-}
-
-.hero-mockup h2{
-font-size:54px;
-font-weight:400;
-color:#2d5ca8;
-margin-bottom:35px;
-}
-
-.hero-mockup p{
-font-size:26px;
-line-height:1.6;
-margin-bottom:18px;
-max-width:700px;
-}
-
-.feature-band{
-background:#082b63;
-color:white;
-padding:40px 0;
-margin-top:80px;
-}
-
-.feature-grid{
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:40px;
-}
-
-  .feature{
-display:flex;
-align-items:flex-start;
-gap:18px;
-}
-
-.feature-icon{
-width:52px;
-height:52px;
-flex-shrink:0;
-}
-
-.feature-icon img{
-width:52px;
-height:52px;
-display:block;
-object-fit:contain;
-filter:brightness(0) invert(1);
-}
-
-.feature h3{
-margin-bottom:10px;
-font-size:22px;
-}
-
-.feature p{
-line-height:1.6;
-}
-
-.home-panels{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:30px;
-margin-top:80px;
-margin-bottom:80px;
-}
-
-.panel{
-background:white;
-border-radius:15px;
-padding:22px;
-box-shadow:0 5px 15px rgba(0,0,0,0.08);
-transition:0.3s;
-min-height:340px;
-}
-
-.panel:hover{
-transform:translateY(-5px);
-}
-
-.panel h2{
-color:#082b63;
-margin-bottom:20px;
-}
-
-.panel img{
-width:100%;
-max-width:230px;
-display:block;
-margin:0 auto 20px auto;
-border-radius:15px;
-}
-.contact-item{
-margin-bottom:15px;
-}
-
-@media(max-width:1100px){
-
-.feature-grid{
-grid-template-columns:1fr;
-gap:25px;
-}
-
-  .feature-band{
-padding:25px 15px;
-}
-
-.home-panels{
-grid-template-columns:1fr;
-}
-
-.hero-mockup{
-flex-direction:column;
-text-align:center;
-gap:40px;
-}
-
-.hero-mockup h1{
-font-size:38px;
-white-space:normal;
-line-height:1.1;
-}
-  
-.hero-mockup h2{
-font-size:26px;
-}
-
-.hero-mockup p{
-font-size:18px;
-line-height:1.7;
-}
-  
-.feature{
-align-items:flex-start;
-}
-
-.feature-icon{
-min-width:60px;
-}
-
-.feature-icon img{
-width:52px;
-height:52px;
-object-fit:contain;
-filter:brightness(0) invert(1);
-}
-
-.feature h3{
-font-size:22px;
-font-weight:700;
-margin-bottom:10px;
-color:white;
-}
-
-.feature p{
-font-size:18px;
-line-height:1.7;
-opacity:0.95;
-}
-
-}
-
-</style>
-
-</style>
 
 </head>
 
+
 <body>
 
+
+<!-- HEADER -->
+
 <header>
+
 <div class="container navbar">
 
 <div class="logo-wrapper">
+
 <div class="logo-box">
 DB
 </div>
 
 <div class="logo-text">
+
 <div class="logo-name">
 Dario Bernoni
 </div>
@@ -264,36 +62,63 @@ Dario Bernoni
 <div class="logo-subtitle">
 Tra ingegneria e calcio
 </div>
+
 </div>
 
 </div>
+
 
 <nav class="menu">
-<a href="index.html">Home</a>
-<a href="chi-sono.html">Chi sono</a>
-<a href="articoli.html">Articoli</a>
+
+<a href="index.html">
+Home
+</a>
+
+<a href="chi-sono.html">
+Chi sono
+</a>
+
+<a href="#insights">
+Insights
+</a>
 
 <a href="CV_Dario_Bernoni.pdf" target="_blank">
 CV
 </a>
 
-<a href="contatti.html">Contatti</a>
+<a href="contatti.html">
+Contatti
+</a>
+
 </nav>
 
 </div>
+
 </header>
+
+
+
+<!-- CONTENUTO PRINCIPALE -->
 
 <div class="container">
 
+
+<!-- HERO -->
+
 <section class="hero-mockup">
+
 
 <div class="hero-left">
 
 <div class="linea"></div>
 
-<h1 style="white-space:nowrap;">DARIO BERNONI</h1>
+<h1>
+DARIO BERNONI
+</h1>
 
-<h2>Tra ingegneria e calcio</h2>
+<h2>
+Tra ingegneria e calcio
+</h2>
 
 <p>
 Allenatore e istruttore presso Curi Pescara,
@@ -305,22 +130,40 @@ Uno spazio dedicato a calcio giovanile,
 metodologia, tecnica e crescita dei giovani calciatori.
 </p>
 
+
 <div class="hero-buttons">
-<a href="articoli.html" class="btn btn-primary">LEGGI GLI ARTICOLI</a>
-<a href="chi-sono.html" class="btn btn-secondary">CHI SONO</a>
+
+<a href="#insights" class="btn btn-primary">
+SCOPRI LE ANALISI
+</a>
+
+<a href="chi-sono.html" class="btn btn-secondary">
+CHI SONO
+</a>
+
 </div>
 
 </div>
+
 
 <div class="hero-right">
+
 <img src="Foto-principale.jpg" alt="Dario Bernoni">
+
 </div>
+
 
 </section>
 
+
+
+<!-- PRINCIPIO -->
+
 <section class="principio">
 
-<h3>Sperimentare e osare, sempre.</h3>
+<h3>
+Sperimentare e osare, sempre.
+</h3>
 
 <p>
 Credo che l'apprendimento passi attraverso la libertà di provare,
@@ -330,84 +173,134 @@ ma una parte fondamentale del percorso di crescita.
 </p>
 
 </section>
-  
+
+
+
+<!-- FEATURE BAND -->
+
 <section class="feature-band">
 
 <div class="feature-grid">
 
+
 <div class="feature">
 
 <div class="feature-icon">
+
 <img src="calcio.svg" alt="Calcio Giovanile">
+
 </div>
 
 <div>
-<h3>Calcio Giovanile</h3>
+
+<h3>
+Calcio Giovanile
+</h3>
+
 <p>
 Formazione, apprendimento e sviluppo del giovane calciatore.
 </p>
+
 </div>
 
 </div>
+
+
 
 <div class="feature">
 
 <div class="feature-icon">
+
 <img src="metodologia.svg" alt="Metodologia">
+
 </div>
 
 <div>
-<h3>Metodologia</h3>
+
+<h3>
+Metodologia
+</h3>
+
 <p>
 Principi, esercitazioni e idee per costruire giocatori pensanti.
 </p>
+
 </div>
 
 </div>
+
+
 
 <div class="feature">
 
 <div class="feature-icon">
+
 <img src="mentalita.svg" alt="Mentalità">
+
 </div>
 
 <div>
-<h3>Mentalità</h3>
+
+<h3>
+Mentalità
+</h3>
+
 <p>
 Coraggio, autonomia, errore e crescita personale.
 </p>
+
 </div>
 
 </div>
+
+
 
 <div class="feature">
 
 <div class="feature-icon">
+
 <img src="ingegneria.svg" alt="Ingegneria">
+
 </div>
 
 <div>
-<h3>Ingegneria</h3>
+
+<h3>
+Ingegneria
+</h3>
+
 <p>
 Analisi, logica e problem solving applicati allo sport.
 </p>
+
 </div>
 
 </div>
+
 
 </div>
 
 </section>
-  
-<section style="margin:70px 0;">
 
-<h2 class="section-title">Il mio percorso</h2>
+
+
+<!-- IL MIO PERCORSO -->
+
+<section class="section-spaced">
+
+<h2 class="section-title">
+Il mio percorso
+</h2>
+
 
 <div class="cards">
 
+
 <div class="card">
 
-<h3>🎓 Istruzione</h3>
+<h3>
+🎓 Istruzione
+</h3>
 
 <p>
 Laureando magistrale in Ingegneria Informatica.
@@ -419,9 +312,13 @@ Studio tecnologia, KPI Analysis e problem solving con un approccio orientato all
 
 </div>
 
+
+
 <div class="card">
 
-<h3>⚽ Allenatore</h3>
+<h3>
+⚽ Allenatore
+</h3>
 
 <p>
 Istruttore presso Curi Pescara.
@@ -433,9 +330,13 @@ Allenatore U10 e vice allenatore U15, con particolare attenzione alla formazione
 
 </div>
 
+
+
 <div class="card">
 
-<h3>🏁 Arbitraggio</h3>
+<h3>
+🏁 Arbitraggio
+</h3>
 
 <p>
 7 anni di esperienza arbitrale.
@@ -447,9 +348,13 @@ Percorso culminato fino alla categoria Eccellenza, sviluppando lettura del gioco
 
 </div>
 
+
+
 <div class="card card-centro">
 
-<h3>📚 Formazione continua</h3>
+<h3>
+📚 Formazione continua
+</h3>
 
 <p>
 Grassroots Level E.
@@ -461,87 +366,284 @@ Corso UEFA C in svolgimento e costante ricerca di nuove idee metodologiche e for
 
 </div>
 
+
 </div>
 
 </section>
 
-<h2 class="section-title">Ultimi articoli</h2>
+
+
+<!-- INSIGHTS -->
+
+<section id="insights" class="insights-section">
+
+
+<h2 class="section-title">
+Insights
+</h2>
+
+
+<p class="insights-intro">
+Football analysis, data and methodology.
+A selection of analytical projects and written work developed around the game.
+</p>
+
+
+
+<h3 class="subsection-title">
+FEATURED ANALYSIS
+</h3>
+
+
+
+<div class="analysis-grid">
+
+
+<!-- ANALISI 01 -->
+
+<a href="fiorentina-team-dna-recruitment.pdf"
+target="_blank"
+class="analysis-card">
+
+<div class="analysis-number">
+01
+</div>
+
+<div class="analysis-content">
+
+<h3>
+Fiorentina — Team DNA & Recruitment
+</h3>
+
+<p>
+Analisi della Fiorentina attraverso il confronto con le migliori squadre della Serie A, con l'obiettivo di identificare i principali gap di performance e tradurli in priorità di recruitment.
+</p>
+
+<span class="analysis-link">
+VIEW ANALYSIS →
+</span>
+
+</div>
+
+</a>
+
+
+
+<!-- ANALISI 02 -->
+
+<a href="torino-opposition-report.pdf"
+target="_blank"
+class="analysis-card">
+
+<div class="analysis-number">
+02
+</div>
+
+<div class="analysis-content">
+
+<h3>
+Torino FC — Opposition Report
+</h3>
+
+<p>
+Opposition report sviluppato in preparazione di Fiorentina-Torino, con analisi della rosa, strutture tattiche, forma recente, precedenti e principali indicatori di performance.
+</p>
+
+<span class="analysis-link">
+VIEW ANALYSIS →
+</span>
+
+</div>
+
+</a>
+
+
+
+<!-- ANALISI 03 -->
+
+<a href="fiorentina-torino-set-piece-plan.pdf"
+target="_blank"
+class="analysis-card">
+
+<div class="analysis-number">
+03
+</div>
+
+<div class="analysis-content">
+
+<h3>
+Fiorentina vs Torino — Set Piece Plan
+</h3>
+
+<p>
+Analisi dei calci piazzati sviluppata in preparazione di Fiorentina-Torino, con focus sulle vulnerabilità difensive, le minacce offensive e le principali indicazioni operative pre-match.
+</p>
+
+<span class="analysis-link">
+VIEW ANALYSIS →
+</span>
+
+</div>
+
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+<!-- ARTICOLI -->
+
+<section class="articles-section">
+
+
+<h3 class="subsection-title">
+ARTICLES
+</h3>
+
 
 <div class="cards">
 
-<a href="controllo-orientato.html" style="text-decoration:none;color:inherit;">
+
+<a href="controllo-orientato.html" class="card-link">
+
 <div class="card">
-<h3>Il controllo orientato</h3>
+
+<h3>
+Il controllo orientato
+</h3>
+
 <p>
 Come e perché orientare il primo tocco per migliorare le decisioni e superare la pressione.
 </p>
+
 </div>
+
 </a>
 
-<a href="smarcamento-giovani-calciatori.html" style="text-decoration:none;color:inherit;">
+
+
+<a href="smarcamento-giovani-calciatori.html" class="card-link">
+
 <div class="card">
-<h3>Lo smarcamento nei giovani calciatori</h3>
+
+<h3>
+Lo smarcamento nei giovani calciatori
+</h3>
+
 <p>
 Come imparare a creare linee di passaggio, occupare gli spazi e prendere decisioni efficaci senza palla.
 </p>
+
 </div>
+
 </a>
 
-<a href="intelligenza-prima-della-tecnica.html" style="text-decoration:none;color:inherit;">
+
+
+<a href="intelligenza-prima-della-tecnica.html" class="card-link">
+
 <div class="card">
-<h3>Allenare l'intelligenza prima della tecnica</h3>
+
+<h3>
+Allenare l'intelligenza prima della tecnica
+</h3>
+
 <p>
 Perché comprendere il gioco e prendere decisioni corrette è il primo passo nella formazione del giovane calciatore.
 </p>
+
 </div>
+
 </a>
 
-<a href="principi-calcio-giovanile.html" style="text-decoration:none;color:inherit;">
+
+
+<a href="principi-calcio-giovanile.html" class="card-link">
+
 <div class="card">
-<h3>I principi del calcio giovanile</h3>
+
+<h3>
+I principi del calcio giovanile
+</h3>
+
 <p>
 Formare giocatori autonomi significa insegnare a leggere il gioco, scegliere e imparare dai propri errori.
 </p>
+
 </div>
+
 </a>
 
-<a href="gestire-errore-nei-bambini.html" style="text-decoration:none;color:inherit;">
+
+
+<a href="gestire-errore-nei-bambini.html" class="card-link">
+
 <div class="card">
-<h3>Gestire l'errore nei bambini</h3>
+
+<h3>
+Gestire l'errore nei bambini
+</h3>
+
 <p>
 L'errore non è un fallimento ma una tappa fondamentale nel percorso di crescita del giovane calciatore.
 </p>
+
 </div>
+
 </a>
 
-<a href="uno-contro-uno-offensivo.html" style="text-decoration:none;color:inherit;">
+
+
+<a href="uno-contro-uno-offensivo.html" class="card-link">
+
 <div class="card">
-<h3>Il duello 1 contro 1 offensivo</h3>
+
+<h3>
+Il duello 1 contro 1 offensivo
+</h3>
+
 <p>
 Il dribbling è una scelta: riconoscere il contesto e avere il coraggio di agire è parte della crescita del giovane calciatore.
 </p>
+
 </div>
+
 </a>
 
+
 </div>
 
-<div style="text-align:center;margin-top:20px;margin-bottom:40px;">
+
+
+<div class="articles-button">
+
 <a href="articoli.html" class="btn btn-primary">
 VEDI TUTTI GLI ARTICOLI
 </a>
-</div>
 
 </div>
 
-<div class="container">
+
+</section>
+
+
+
+<!-- PANNELLI FINALI -->
 
 <div class="home-panels">
 
-<a href="chi-sono.html" style="text-decoration:none;color:inherit;">
+
+<a href="chi-sono.html" class="panel-link">
 
 <div class="panel">
 
-<h2>Chi Sono</h2>
+<h2>
+Chi Sono
+</h2>
 
 <img src="Foto-principale.jpg" alt="Dario Bernoni">
 
@@ -550,7 +652,7 @@ Allenatore e istruttore presso Curi Pescara,
 laureando magistrale in Ingegneria Informatica.
 </p>
 
-<p style="margin-top:15px;">
+<p class="panel-secondary-text">
 Scopri il mio percorso tra calcio,
 arbitraggio, formazione e ingegneria.
 </p>
@@ -559,30 +661,34 @@ arbitraggio, formazione e ingegneria.
 
 </a>
 
-<a href="articoli.html" style="text-decoration:none;color:inherit;">
+
+
+<a href="#insights" class="panel-link">
 
 <div class="panel">
 
-<h2>Articoli</h2>
+<h2>
+Insights
+</h2>
 
 <p>
-Attualmente sono disponibili 6 articoli dedicati
-a tecnica, tattica, metodologia e calcio giovanile.
+Analisi, report e progetti sviluppati attraverso dati,
+osservazione tattica e metodologia.
 </p>
 
-<ul style="margin-top:15px;padding-left:20px;line-height:1.8;">
+<ul>
 
-<li>Controllo orientato</li>
+<li>
+Fiorentina — Team DNA & Recruitment
+</li>
 
-<li>Lo smarcamento</li>
+<li>
+Torino FC — Opposition Report
+</li>
 
-<li>Intelligenza prima della tecnica</li>
-
-<li>Principi del calcio giovanile</li>
-
-<li>Gestire l'errore nei bambini</li>
-
-<li>1 contro 1 offensivo</li>
+<li>
+Fiorentina vs Torino — Set Piece Plan
+</li>
 
 </ul>
 
@@ -590,11 +696,15 @@ a tecnica, tattica, metodologia e calcio giovanile.
 
 </a>
 
-<a href="contatti.html" style="text-decoration:none;color:inherit;">
+
+
+<a href="contatti.html" class="panel-link">
 
 <div class="panel">
 
-<h2>Contatti</h2>
+<h2>
+Contatti
+</h2>
 
 <div class="contact-item">
 📧 DarioBern27@gmail.com
@@ -608,7 +718,7 @@ a tecnica, tattica, metodologia e calcio giovanile.
 💼 LinkedIn: Dario Bernoni
 </div>
 
-<p style="margin-top:25px;">
+<p class="panel-secondary-text">
 Per collaborazioni, confronto professionale
 o semplicemente per entrare in contatto.
 </p>
@@ -617,11 +727,13 @@ o semplicemente per entrare in contatto.
 
 </a>
 
-</div>
 
 </div>
 
+
 </div>
+
+
 
 <footer>
 
@@ -629,5 +741,7 @@ o semplicemente per entrare in contatto.
 
 </footer>
 
+
 </body>
+
 </html>
